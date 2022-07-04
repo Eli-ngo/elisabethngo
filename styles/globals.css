@@ -1,9 +1,25 @@
+@font-face{
+  font-family: "Nexa-Bold";
+  src: url("../public/fonts/nexa_bold-webfont.woff") format("woff"),
+  url("../public/fonts/nexa_bold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face{
+  font-family: "Ginger";
+  src: url("../public/fonts/ginger-webfont.woff") format("woff"),
+  url("../public/fonts/ginger-webfont.woff2") format("woff2");
+  font-weight: lighter;
+  font-display: swap;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
