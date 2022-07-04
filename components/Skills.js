@@ -91,7 +91,7 @@ export const SkillsStyle = styled.section`
 const Skills = () => {
 
     return ( 
-        <SkillsStyle>
+        <SkillsStyle id="skills">
             <p className="headline">skills</p>
             <div className="divider"></div>
             <div className="marquee">

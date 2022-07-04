@@ -46,11 +46,11 @@ const Footer = () => {
         <FooterStyle id="footer">
             <div className="footer-container">
                 <p>Copyright © 2022 Elisabeth Ngo</p>
-                <div className="navFooterLinks">
+                {/* <div className="navFooterLinks">
                     <Link href="/" className="legalNotice"><a>Mentions Légales</a></Link>
                     <Link href="/" className="CGU"><a>CGU</a></Link>
                     <Link href="/" className="contactFooter"><a>Nous contacter</a></Link>
-                </div>
+                </div> */}
             </div>
         </FooterStyle>
     );

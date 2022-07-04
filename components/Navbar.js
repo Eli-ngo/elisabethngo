@@ -169,8 +169,8 @@ const Navbar = () => {
 
             <div className={`mobile--menu ${active ? "opened" : ""}`}>
                     <div className="mobile--links">
-                        <Link href="#instructions" className="aboutUs"><a>Projets</a></Link>
-                        <Link href="#newsletter" className="contactUs"><a>Contact</a></Link>
+                        <Link href="#skills" className="aboutUs"><a>Projets</a></Link>
+                        <Link href="#contact" className="contactUs"><a>Contact</a></Link>
                         <div className="close" onClick={() => setActive(!active)}>
                         <div className="closeline"></div>
                         <div className="closeline"></div>
@@ -179,8 +179,8 @@ const Navbar = () => {
             </div>
         
             <div className="navLinks">
-                <Link href="#instructions" className="aboutUsMobile"><a>Projets</a></Link>
-                <Link href="#newsletter" className="contactUsMobile"><a>Contact</a></Link>
+                <Link href="#skills" className="aboutUsMobile"><a>Projets</a></Link>
+                <Link href="#contact" className="contactUsMobile"><a>Contact</a></Link>
             </div>
         </NavStyle>
     );
