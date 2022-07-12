@@ -5,15 +5,11 @@ import Link from 'next/link'
 
 export const HeaderStyle = styled.header`
     width: 100%;
-    height: 110vh!important; 
+    height: 100vh; 
     background: #0E1420;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    @media only screen and (max-width: 1024px){
-        height: 100vh;
-    }
 
     .headerContainer{
         display: flex;
@@ -22,10 +18,50 @@ export const HeaderStyle = styled.header`
         justify-content: center;
         align-items: center;
         width: 80%;
+        position: relative;
+
+        &:before {
+                display: block;
+                position: absolute;
+                /* top: 50px; */
+                bottom: -500px;
+                left: -550px;
+                content: "";
+                width: 728px;
+                height: 728px;
+                border-radius: 50%;
+                background: radial-gradient(50.2% 50.2% at 50.2% 49.8%, #87628D 0%, rgba(14, 27, 74, 0) 100%);
+                filter: blur(80px);
+
+                @media only screen and (min-width: 768px){
+                    left: -740px;
+                }
+        }
+
+        &:after {
+                display: block;
+                position: absolute;
+                /* top: 50px; */
+                bottom: 200px;
+                right: -280px;
+                content: "";
+                width: 360px;
+                height: 360px;
+                border-radius: 50%;
+                background: radial-gradient(50.2% 50.2% at 50.2% 49.8%, #0F2A89 0%, rgba(14, 27, 74, 0) 100%);
+                filter: blur(20px);
+
+                @media only screen and (min-width: 768px){
+                    right: -400px;
+                }
+        }
 
         @media only screen and (min-width: 768px){
             flex-direction: row;
             align-items: flex-end;
+        }
+        @media only screen and (min-width: 1024px){
+            gap: 300px;
         }
 
         &__text{
@@ -38,6 +74,31 @@ export const HeaderStyle = styled.header`
                 text-transform: uppercase;
                 font-weight: lighter;
                 font-size: 3rem;
+                height: 70px;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+
+                @media only screen and (min-width: 1024px){
+                    height: 94px;
+                    width: 140%;
+                }
+
+                & span{
+                    position: absolute;
+                    transform: translateY(0px);
+                    animation: 1.5s cubic-bezier(0.77, 0, 0.175, 1) 1s num2;
+
+                    @keyframes num2 {
+                        0%   {
+                        transform: translateY(80px);
+                        }
+                        
+                        100% {
+                            transform: translateY(0px);
+                        }
+                    }
+                }
                 
                 @media only screen and (min-width: 768px){
                     font-size: 4.3rem;
@@ -147,7 +208,7 @@ const Header = () => {
             <div className="headerContainer d-flex">
                 <div className="headerContainer__text">
                     <p className="headerContainer__text--name">Elisabeth Ngo</p>
-                    <h1 className="headerContainer__text--title">portfolio</h1>
+                    <h1 className="headerContainer__text--title"><span>portfolio</span></h1>
                     <p className="headerContainer__text--description">développeuse front-end basée sur paris</p>
                 </div>
                 <div className="headerContainer__img">

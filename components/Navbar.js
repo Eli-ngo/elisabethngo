@@ -33,7 +33,7 @@ export const NavStyle = styled.nav`
     .navLinks{
         display: flex;
         & a{
-            font-family: "Nexa-Bold";
+            font-family: "Ginger";
             :not(:last-child) {
                 margin-right: 50px;
             }
@@ -63,6 +63,41 @@ export const NavStyle = styled.nav`
             display: none;
         }
         .toggle-container{
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            padding: 15px;
+            width: 30px;
+            position: absolute;
+            right: 60px;
+            top: 22px;
+
+            &:hover .bar:first-child{
+                transition-delay: 100ms;
+                transform: scaleX(0);
+            }
+            
+            &:hover .bar:nth-child(2){
+                transition-delay: 200ms;
+                transform: scaleX(0);
+            }
+            
+            &:hover .bar:last-child{
+                transition-delay: 300ms;
+                transform: scaleX(0);
+            } 
+        }
+        .bar{
+            width: 30px;
+            height: 2px;
+            background-color: white;
+            margin-top: 2.5px;
+            margin-bottom: 2.5px;
+            transition: all 0.3s ease;
+            transform-origin: right;
+            transform: scaleX(1);
+        }
+        /* .toggle-container{
             position: absolute;
             top: 40%;
             right: 40px;
@@ -80,7 +115,7 @@ export const NavStyle = styled.nav`
                 margin-top: 5px;
                 
             }
-        }
+        } */
     }
     .mobile--menu{
         left: -100%;
@@ -111,6 +146,7 @@ export const NavStyle = styled.nav`
                 align-items: center;
                 justify-content: center;
                 z-index: 20;
+                cursor: pointer;
                 .closeline{
                     width: 50%;
                     height: 2px;
@@ -161,9 +197,12 @@ const Navbar = () => {
 
             <div className="toggle-icon">
                 <div className="toggle-container" onClick={() => setActive(!active)}>
-                    <div className="bar1"></div>
+                    {/* <div className="bar1"></div>
                     <div className="bar2"></div>
-                    <div className="bar3"></div>
+                    <div className="bar3"></div> */}
+                    <div className="bar"></div>
+                    <div className="bar"></div>
+                    <div className="bar"></div>
                 </div>
             </div>
 
