@@ -151,9 +151,9 @@ const Header = () => {
             <div className="projectContainer">
                 <div className="project__item">
                     <Link href="https://incognitos.vercel.app/"><a className="project__item-link">Twïce</a></Link>
-                    <img class="project__item-img" src="/1.jpg" alt="Twïce"/>
-                    <div class="marqueemenu">
-                        <div class="marqueemenu__inner" aria-hidden="true">
+                    <img className="project__item-img" src="/1.jpg" alt="Twïce"/>
+                    <div className="marqueemenu">
+                        <div className="marqueemenu__inner" aria-hidden="true">
                             <span>Twïce</span>
                             <span>Twïce</span>
                             <span>Twïce</span>
@@ -168,9 +168,9 @@ const Header = () => {
                 </div>
                 <div className="project__item">
                     <Link href="https://imminence-entrepreneur.com"><a className="project__item-link">Imminence</a></Link>
-                    <img class="project__item-img" src="/1.jpg" alt="Some image"/>
-                    <div class="marqueemenu">
-                        <div class="marqueemenu__inner" aria-hidden="true">
+                    <img className="project__item-img" src="/1.jpg" alt="Some image"/>
+                    <div className="marqueemenu">
+                        <div className="marqueemenu__inner" aria-hidden="true">
                             <span>Imminence</span>
                             <span>Imminence</span>
                             <span>Imminence</span>
