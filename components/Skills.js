@@ -4,27 +4,17 @@ import Link from 'next/link'
 
 export const SkillsStyle = styled.section`
     width: 100%;
-    height: 70vh; 
-    background: #0E1420;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    .headline{
-        color: #ffffff;
-        text-transform: uppercase;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .divider{
-        width: 80%;
-        height: 1px;
-        background: #CACACA;
-    }
-
     .marquee{
         margin-top: 30px;
+        .front{
+            color: #4DA2C0;
+        }
     }
     .marquee2{
         margin-bottom: 30px;
@@ -95,8 +85,9 @@ const Skills = () => {
             <p className="headline">skills</p>
             <div className="divider"></div>
             <div className="marquee">
-                <div>FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI&nbsp;</div>
-                <div>FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI&nbsp;</div>
+                <div><span className="front">FRONT-END DEVELOPER</span> - UX/UI - FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI&nbsp;</div>
+                <div><span className="front">FRONT-END DEVELOPER</span> - UX/UI - FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI&nbsp;</div>
+                {/* <div>FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI&nbsp;</div> */}
             </div>
             <div className="marquee2">
                 <div>NEXTJS - REACTJS - TAILWINDCSS - PHP - CAKEPHP - NODEJS - WORDPRESS&nbsp;</div>

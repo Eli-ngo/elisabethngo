@@ -5,7 +5,6 @@ import { useState } from 'react'
 
 export const NavStyle = styled.nav`
 
-    background: #0E1420;
     position: relative;
     width: 100%;
     height: 100px;
@@ -197,9 +196,6 @@ const Navbar = () => {
 
             <div className="toggle-icon">
                 <div className="toggle-container" onClick={() => setActive(!active)}>
-                    {/* <div className="bar1"></div>
-                    <div className="bar2"></div>
-                    <div className="bar3"></div> */}
                     <div className="bar"></div>
                     <div className="bar"></div>
                     <div className="bar"></div>
@@ -208,7 +204,7 @@ const Navbar = () => {
 
             <div className={`mobile--menu ${active ? "opened" : ""}`}>
                     <div className="mobile--links">
-                        <Link href="#skills" className="aboutUs"><a>Projets</a></Link>
+                        <Link href="#projects" className="projectsLink"><a>Projets</a></Link>
                         <Link href="#contact" className="contactUs"><a>Contact</a></Link>
                         <div className="close" onClick={() => setActive(!active)}>
                         <div className="closeline"></div>
@@ -218,7 +214,7 @@ const Navbar = () => {
             </div>
         
             <div className="navLinks">
-                <Link href="#skills" className="aboutUsMobile"><a>Projets</a></Link>
+                <Link href="#projects" className="projectsLinkMobile"><a>Projets</a></Link>
                 <Link href="#contact" className="contactUsMobile"><a>Contact</a></Link>
             </div>
         </NavStyle>

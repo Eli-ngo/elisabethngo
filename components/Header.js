@@ -6,7 +6,6 @@ import Link from 'next/link'
 export const HeaderStyle = styled.header`
     width: 100%;
     height: 100vh; 
-    background: #0E1420;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +19,7 @@ export const HeaderStyle = styled.header`
         width: 80%;
         position: relative;
 
-        &:before {
+        &:before { //left halo
                 display: block;
                 position: absolute;
                 /* top: 50px; */
@@ -30,7 +29,8 @@ export const HeaderStyle = styled.header`
                 width: 728px;
                 height: 728px;
                 border-radius: 50%;
-                background: radial-gradient(50.2% 50.2% at 50.2% 49.8%, #87628D 0%, rgba(14, 27, 74, 0) 100%);
+                /* background: radial-gradient(50.2% 50.2% at 50.2% 49.8%, #87628D 0%, rgba(14, 27, 74, 0) 100%); */
+                background: radial-gradient(50.2% 50.2% at 50.2% 49.8%, #4D9999 0%, rgba(14, 27, 74, 0) 100%);
                 filter: blur(80px);
 
                 @media only screen and (min-width: 768px){
@@ -38,7 +38,7 @@ export const HeaderStyle = styled.header`
                 }
         }
 
-        &:after {
+        &:after { //righgt halo
                 display: block;
                 position: absolute;
                 /* top: 50px; */
@@ -48,8 +48,9 @@ export const HeaderStyle = styled.header`
                 width: 360px;
                 height: 360px;
                 border-radius: 50%;
-                background: radial-gradient(50.2% 50.2% at 50.2% 49.8%, #0F2A89 0%, rgba(14, 27, 74, 0) 100%);
-                filter: blur(20px);
+                /* background: radial-gradient(50.2% 50.2% at 50.2% 49.8%, #0F2A89 0%, rgba(14, 27, 74, 0) 100%); */
+                background: radial-gradient(50.2% 50.2% at 50.2% 49.8%, #5689A6 0%, rgba(14, 27, 74, 0) 100%);
+                filter: blur(60px);
 
                 @media only screen and (min-width: 768px){
                     right: -400px;
@@ -120,6 +121,7 @@ export const HeaderStyle = styled.header`
                 width: 90%;
                 clip-path: inset(0% 0% 100% 0%);
                 transition: clip-path 2s cubic-bezier(0.73, 0.01, 0, 1);
+                /* border-radius: 20px; */
 
                 @media only screen and (min-width: 768px){
                     width: 100%;
@@ -213,7 +215,7 @@ const Header = () => {
                 </div>
                 <div className="headerContainer__img">
                     <figure>
-                        <img className={`headerContainer__img--banner ${isReveal ? "reveal" : ""}`} src="/header-image.webp" alt="header image Elisabeth Ngo"></img>
+                        <img className={`headerContainer__img--banner ${isReveal ? "reveal" : ""}`} src="/liquid.jpg" alt="header image Elisabeth Ngo"></img>
                     </figure>
                 </div>
             </div>

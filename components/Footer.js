@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const FooterStyle = styled.footer`
     width: 100%;
     padding: 30px 10px;
-    background: #0E1420;
     color: #ffffff;
     display: flex;
     justify-content: center;
