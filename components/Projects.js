@@ -183,9 +183,9 @@ const Header = () => {
 
                 <div className="project__item">
                     <a href="https://pauldekock.fr/" className="project__item-link">Paul de Kock</a>
-                    <img class="project__item-img" src="/pauldekock.webp" alt="Paul de Kock Site Depanneur"/>
-                    <div class="marqueemenu">
-                        <div class="marqueemenu__inner" aria-hidden="true">
+                    <img className="project__item-img" src="/pauldekock.webp" alt="Paul de Kock Site Depanneur"/>
+                    <div className="marqueemenu">
+                        <div className="marqueemenu__inner" aria-hidden="true">
                             <span>Paul de Kock</span>
                             <span>Paul de Kock</span>
                             <span>Paul de Kock</span>
@@ -198,9 +198,9 @@ const Header = () => {
 
                 <div className="project__item">
                     <a href="https://lescompagnonsducompost.fr/" className="project__item-link">Les compagnons du compost</a>
-                    <img class="project__item-img" src="/compost.webp" alt="Les compagnons du Compost"/>
-                    <div class="marqueemenu">
-                        <div class="marqueemenu__inner" aria-hidden="true">
+                    <img className="project__item-img" src="/compost.webp" alt="Les compagnons du Compost"/>
+                    <div className="marqueemenu">
+                        <div className="marqueemenu__inner" aria-hidden="true">
                             <span>Les compagnons du compost</span>
                             <span>Les compagnons du compost</span>
                             <span>Les compagnons du compost</span>
