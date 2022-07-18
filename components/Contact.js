@@ -49,7 +49,7 @@ const Contact = () => {
             <p className="headline">contact</p>
             <div className="divider"></div>
             <div className="contactContainer">
-                <p className="contactText">Collaborons<Link href="/"><a className="contactText__link"> ensemble</a></Link></p>
+                <p className="contactText">Collaborons<Link href="mailto:elisab.ngo@gmail.com"><a className="contactText__link"> ensemble</a></Link></p>
                 <Link href="/"><a className="contactText__email">elisab.ngo@gmail.com</a></Link>
             </div>
             <div className="divider"></div>

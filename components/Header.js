@@ -215,7 +215,7 @@ const Header = () => {
                 </div>
                 <div className="headerContainer__img">
                     <figure>
-                        <img className={`headerContainer__img--banner ${isReveal ? "reveal" : ""}`} src="/liquid.jpg" alt="header image Elisabeth Ngo"></img>
+                        <img className={`headerContainer__img--banner ${isReveal ? "reveal" : ""}`} src="/header.webp" alt="header image Elisabeth Ngo"></img>
                     </figure>
                 </div>
             </div>

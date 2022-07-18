@@ -151,7 +151,7 @@ const Header = () => {
             <div className="projectContainer">
                 <div className="project__item">
                     <Link href="https://incognitos.vercel.app/"><a className="project__item-link">Twïce</a></Link>
-                    <img className="project__item-img" src="/1.jpg" alt="Twïce"/>
+                    <img className="project__item-img" src="/twice.webp" alt="Twïce application projet ecole"/>
                     <div className="marqueemenu">
                         <div className="marqueemenu__inner" aria-hidden="true">
                             <span>Twïce</span>
@@ -168,7 +168,7 @@ const Header = () => {
                 </div>
                 <div className="project__item">
                     <Link href="https://imminence-entrepreneur.com"><a className="project__item-link">Imminence</a></Link>
-                    <img className="project__item-img" src="/1.jpg" alt="Some image"/>
+                    <img className="project__item-img" src="/imminence.webp" alt="Imminence projet"/>
                     <div className="marqueemenu">
                         <div className="marqueemenu__inner" aria-hidden="true">
                             <span>Imminence</span>
@@ -183,7 +183,7 @@ const Header = () => {
 
                 <div className="project__item">
                     <a href="https://pauldekock.fr/" className="project__item-link">Paul de Kock</a>
-                    <img class="project__item-img" src="/2.jpg" alt="Some image"/>
+                    <img class="project__item-img" src="/pauldekock.webp" alt="Paul de Kock Site Depanneur"/>
                     <div class="marqueemenu">
                         <div class="marqueemenu__inner" aria-hidden="true">
                             <span>Paul de Kock</span>
@@ -198,7 +198,7 @@ const Header = () => {
 
                 <div className="project__item">
                     <a href="https://lescompagnonsducompost.fr/" className="project__item-link">Les compagnons du compost</a>
-                    <img class="project__item-img" src="/3.jpg" alt="Some image"/>
+                    <img class="project__item-img" src="/compost.webp" alt="Les compagnons du Compost"/>
                     <div class="marqueemenu">
                         <div class="marqueemenu__inner" aria-hidden="true">
                             <span>Les compagnons du compost</span>
