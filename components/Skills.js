@@ -85,12 +85,11 @@ const Skills = () => {
             <p className="headline">skills</p>
             <div className="divider"></div>
             <div className="marquee">
-                <div><span className="front">FRONT-END DEVELOPER</span> - UX/UI - FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI&nbsp;</div>
-                <div><span className="front">FRONT-END DEVELOPER</span> - UX/UI - FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI&nbsp;</div>
-                {/* <div>FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI - FRONT-END DEVELOPER - UX/UI&nbsp;</div> */}
+                <div><span className="front">FRONT END DEVELOPER</span> - UX/UI - FRONT END DEVELOPER - UX/UI - FRONT END DEVELOPER - UX/UI -&nbsp;</div>
+                <div><span className="front">FRONT END DEVELOPER</span> - UX/UI - FRONT END DEVELOPER - UX/UI - FRONT END DEVELOPER - UX/UI&nbsp;</div>
             </div>
             <div className="marquee2">
-                <div>NEXTJS - REACTJS - TAILWINDCSS - PHP - CAKEPHP - NODEJS - WORDPRESS&nbsp;</div>
+                <div>NEXTJS - REACTJS - TAILWINDCSS - PHP - CAKEPHP - NODEJS - WORDPRESS -&nbsp;</div>
                 <div>NEXTJS - REACTJS - TAILWINDCSS - PHP - CAKEPHP - NODEJS - WORDPRESS&nbsp;</div>
             </div>
             <div className="divider"></div>
